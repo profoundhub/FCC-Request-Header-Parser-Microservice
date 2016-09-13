@@ -6,10 +6,10 @@ This website was created for the Free Code Camp (FCC) Back End API Request Heade
 
 ## Your Information
 
-### RAW
+### RAW:
 
 ## Usage
 The endpoint can be found at: https://fcc-header-parser.herokuapp.com/api/v1/whoami .
 
 ## Source Code
-The source code can be located in my GitHub Repo.
+The source code can be located in my GitHub Repo: https://github.com/profoundhub/FCC-Request-Header-Parser-Microservice .
