@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "2.0.0",
+  "description": "url-request-header-parser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profoundhub/Header-Parser-API-Requests.git"
+  },
+  "author": "Daniel Lim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/profoundhub/Header-Parser-API-Requests/issues"
+  },
+  "homepage": "https://github.com/profoundhub/Header-Parser-API-Requests#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
