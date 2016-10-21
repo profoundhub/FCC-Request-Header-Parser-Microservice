@@ -3,7 +3,13 @@ let express = require("express"), app = express(), port = process.env.PORT || 80
 app.listen(port, function() {
     console.log("App is Listening @ Port #: " + port + "... .")
 });
-app.get("/", function(req, res) {
+
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/views/index.html");
+});
+
+app.get("/api/whoami", (req, res) => {
+
    let ip = req.headers["x-forwarded-for"] ||
      req.connection.remoteAddress ||
      req.socket.remoteAddress ||
