@@ -8,7 +8,8 @@ This website was created for the Free Code Camp (FCC) Back End API Request Heade
 Sample output: {"ipaddress":"123.456.789.101","language":"EN-GB","software":"Windows NT X; Win128; x256"}
 
 ## Usage
-The endpoint can be found at: https://fcc-header-parser-ms.herokuapp.com/ .
+The old endpoint can be found at: https://fcc-header-parser-ms.herokuapp.com/ .
+The new endpoint can be found at: https://fcc-header-parser-ms.herokuapp.com/api/v1/whoami .
 
 ## Source Code
 The source code can be located in my GitHub Repo: https://github.com/profoundhub/FCC-Request-Header-Parser-Microservice .
