@@ -9,7 +9,7 @@
 
 ## Usage
 - The old endpoint can be found at: https://fcc-header-parser-ms.herokuapp.com/ .
-- The new endpoint can be found at: https://fcc-header-parser-ms.herokuapp.com/api/v1/whoami .
+- The new endpoint can be found at: https://fcc-header-parser-ms.herokuapp.com/api/whoami .
 
 ## Source Code
 - The source code can be located in my GitHub Repo: https://github.com/profoundhub/FCC-Request-Header-Parser-Microservice .
