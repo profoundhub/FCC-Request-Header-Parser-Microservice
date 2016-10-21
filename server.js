@@ -18,9 +18,9 @@ app.get("/api/whoami", (req, res) => {
    let os = req.headers["user-agent"].split(')')[0].split('(')[1];
 
    res.json({
-      ipaddress: ip,
-      language: la,
-      software: os
+      "IP Address": ip,
+      "Language": la,
+      "Operating System": os
    });
 
 });
