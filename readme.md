@@ -7,6 +7,10 @@
 ### RAW:
 - Sample output: {"ipaddress":"123.456.789.101","language":"EN-GB","software":"Windows NT X; Win128; x256"}
 
+- new sample output: {"IP Address":"123.456.789.101","Language":"EN-GB","Operating System":"Ubuntu/8.10 (intrepid) ; OS128; iOSx256"}
+
+- OR in this format: {"IP Address":"xxx.xxx.xxx.xxx","Language":"xx-xx","Operating System":"xxxxxxx ; xxxxx; xxxxx"}
+
 ## Usage
 - The old endpoint can be found at: https://fcc-header-parser-ms.herokuapp.com/ .
 - The new endpoint can be found at: https://fcc-header-parser-ms.herokuapp.com/api/whoami .
