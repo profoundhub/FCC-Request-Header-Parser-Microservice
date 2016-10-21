@@ -5,7 +5,7 @@ app.listen(port, function() {
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/views/index.html");
+  res.sendFile("/views/index.html");
 });
 
 app.get("/api/whoami", (req, res) => {
